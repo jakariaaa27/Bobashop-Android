@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "207024212878",
+    "project_id": "bobashop-21763",
+    "storage_bucket": "bobashop-21763.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207024212878:android:d4a43d4584c2dcf34872df",
+        "android_client_info": {
+          "package_name": "com.bobashop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207024212878-1o0esa3q4cfnfabh0hb5dch68peul73q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bobashop",
+            "certificate_hash": "4a040b8d19a0c37f4518d70523663a829e38f830"
+          }
+        },
+        {
+          "client_id": "207024212878-l5ape08r9e25phjr58s6qh5f2u4pksp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRFPaMLOHl-ZyeYlx-qNjC9riD2xRyFWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207024212878-l5ape08r9e25phjr58s6qh5f2u4pksp4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

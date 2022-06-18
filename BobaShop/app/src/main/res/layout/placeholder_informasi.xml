@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/md_keylines"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/tvJudul"
+            android:layout_width="100dp"
+            android:layout_height="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:background="#DDDDDD" />
+
+        <View
+            android:id="@+id/ivFoto"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_below="@id/tvJudul"
+            android:layout_marginTop="10dp"
+            android:background="#DDDDDD" />
+
+        <View
+            android:id="@+id/tvKeterangan"
+            android:layout_below="@id/ivFoto"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_marginTop="10dp"
+            android:background="#DDDDDD" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
